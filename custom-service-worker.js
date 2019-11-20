@@ -16,7 +16,7 @@ workbox.routing.registerRoute(
   workbox.strategies.networkFirst(),
 )
 workbox.routing.registerRoute(
-  'https://fauziyahilma.github.io/blog',
+  'https://fauziyahilma.github.io/blog/',
   workbox.strategies.networkFirst()
 )
 
