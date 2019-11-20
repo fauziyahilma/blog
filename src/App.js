@@ -70,7 +70,7 @@ class App extends Component {
                       </div>
 
                     </div>
-                    <a href="#" data-target="mobile-nav" className="sidenav-trigger">☰</a>
+                    <a href="#" data-target="mobile-nav" className="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul className="right hide-on-med-and-down">
                       <li><NavLink exact className="wrapper" to='/blog' activeClassName="active" onClick={getHome} isActive={checkActive}>HOME</NavLink></li>
                       {/* <li><NavLink className="wrapper" to='/' activeClassName="active" onClick={getAbout} isActive={checkActive} >ABOUT</NavLink></li> */}
@@ -105,6 +105,7 @@ class App extends Component {
           <div id="body-content" className="body-content">
             <main>
               <Switch>
+                <Route path="/" exact component={Home} />
                 <Route path="/blog" exact component={Home} />
                 <Route path="/notes" exact component={Notes} />
                 <Route path="/note/:title" exact component={Note} />
