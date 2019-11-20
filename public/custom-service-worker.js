@@ -16,14 +16,14 @@ workbox.routing.registerRoute(
   workbox.strategies.networkFirst(),
 )
 workbox.routing.registerRoute(
-  'http://localhost:3000',
+  'https://fauziyahilma.github.io/blog',
   workbox.strategies.networkFirst()
 )
 
-// workbox.routing.registerRoute(
-//   new RegExp('https://randomuser.me/api'),
-//   workbox.strategies.staleWhileRevalidate()
-// )
+workbox.routing.registerRoute(
+  new RegExp('https://fauziyahilma.github.io/blog'),
+  workbox.strategies.staleWhileRevalidate()
+)
 
 /*
 workbox.routing.registerRoute(

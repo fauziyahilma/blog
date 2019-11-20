@@ -45,7 +45,7 @@ class App extends Component {
       if (!location) return false;
       const { pathname } = location;
       console.log(pathname);
-      return pathname === "/";
+      return pathname === "/blog";
     }
     const getHome = function () {
       console.log('tohome')
@@ -73,7 +73,7 @@ class App extends Component {
                     </div>
                     <a href="#" data-target="mobile-nav" className="sidenav-trigger">☰</a>
                     <ul className="right hide-on-med-and-down">
-                      <li><NavLink exact className="wrapper" to='/' activeClassName="active" onClick={getHome} isActive={checkActive}>HOME</NavLink></li>
+                      <li><NavLink exact className="wrapper" to='/blog' activeClassName="active" onClick={getHome} isActive={checkActive}>HOME</NavLink></li>
                       {/* <li><NavLink className="wrapper" to='/' activeClassName="active" onClick={getAbout} isActive={checkActive} >ABOUT</NavLink></li> */}
                       <li><NavLink className="wrapper" to='/notes' activeClassName="active" >NOTES</NavLink></li>
                       <li><a className="wrapper modal-trigger" href="#contact" >CONTACT</a></li>
@@ -106,7 +106,7 @@ class App extends Component {
           <div id="body-content" className="body-content">
             <main>
               <Switch>
-                <Route path="/" exact component={Home} />
+                <Route path="/blog" exact component={Home} />
                 <Route path="/notes" exact component={Notes} />
                 <Route path="/note/:title" exact component={Note} />
                 <Route path="/bycategory/:category" exact component={Bycategory} />
