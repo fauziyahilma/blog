@@ -48,7 +48,6 @@ class App extends Component {
       return pathname === "/blog";
     }
     const getHome = function () {
-      console.log('tohome')
       window.scrollTo(10, 0);
     }
 
@@ -86,7 +85,7 @@ class App extends Component {
 
 
             <ul id="mobile-nav" className="sidenav">
-              <li><Link to='/'>HOME</Link></li>
+              <li><Link to='/blog'>HOME</Link></li>
               <li><Link to='/notes'>NOTES</Link></li>
               <li><a className="wrapper modal-trigger" href="#contact" >CONTACT</a></li>
             </ul>
