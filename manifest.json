@@ -2,7 +2,7 @@
   "name": "e by Ilma",
   "short_name": "e",
   "description": " ",
-  "start_url": "/blog",
+  "start_url": "/blog/index.html",
   "display": "standalone",
   "background_color": "#588778",
   "theme_color": "#588778",
