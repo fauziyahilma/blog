@@ -128,8 +128,7 @@ nav a:hover{
 
 nav img{
     width: 55px;
-    /* position: absolute;
-    left: 50%; */
+    height: auto;
 }
 
 .title > h1{
@@ -351,7 +350,7 @@ nav{
 
 footer{
     text-align: center;
-    height: 5vw;
+    padding: 10px !important;
     background-color: #6B9789 !important;
 }
 
@@ -784,7 +783,6 @@ footer{
     footer{
         font-size: 5pt;
         text-align: center;
-        padding-top: 15px !important;
     }
     .modal{
         width: 80% !important;

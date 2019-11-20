@@ -92,7 +92,7 @@ class App extends Component {
 
             {/* end of navbar */}
 
-            < div className="title" id="home" >
+            < div className="title" >
               <div className="wrapper">
                 <a href="#about"><img src={e} alt="" /></a>
               </div>
