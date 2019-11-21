@@ -105,14 +105,6 @@ nav a::after{
     transition: all 0.5s;
 }
 
-nav a:hover::after{
-    width: 30px;
-}
-
-nav a:hover{
-    background: none !important;
-}
-
 .topnav, .sidenav{
     color: white;
 }
@@ -334,9 +326,8 @@ nav{
 
 .about p{
     color: white;
-    font-size: medium;
-    margin-top: 20px;
-    position: absolute;
+    font-size: small;
+    margin: 10px 0;
 }
 
 #about .title-about h6::after {
@@ -424,22 +415,26 @@ footer{
     text-align: center;
 }
 
-.bg1{
-    background: url(./../img/DSCF4476.JPG);  
-    background-size: cover;
-        background-position: center;
+
+.title-content h4{
+    padding: 30px 20px;
+    font-weight: bold;
+    border: 3px solid white;   
+    text-align: left;
+    text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
 }
 
-.bg2{
-    background: url(./../img/DSC_0537.JPG);
-    background-size: cover;
-    background-position: center;
-}
-
-.bg3{
-    background: url(./../img/DSC_0382.JPG);
-    background-size: cover;
-    background-position: center;
+.title-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    color: white;
+    padding: 5px 30px;
+    width: 80%;
+    height: 35%;
+    font-weight: bolder;
 }
 
 #note h5{
@@ -452,22 +447,6 @@ footer{
 
 #note p{
     text-align: justify;
-}
-
-.title-content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); 
-    color: white;
-    border: 3px solid white;
-    padding: 5px 30px;
-    text-align: left;
-    width: 65%;
-    height: 35%;
-    text-shadow: 8px 8px 8px grey;
-    font-weight: bolder;
 }
 
 .note-content{
@@ -564,6 +543,14 @@ footer{
         animation: spin 4s linear infinite;
         transition: all 500ms ease-in;
       }
+
+      nav a:hover::after{
+        width: 30px;
+    }
+    
+    nav a:hover{
+        background: none !important;
+    }
 }
 
 
@@ -733,9 +720,6 @@ footer{
         margin-bottom: 5px;
     }
 
-    .title-content h4{
-        font-size: large;
-    }
 
     .note-list{
         margin: 20px 0 50px 0;
@@ -767,10 +751,10 @@ footer{
     }
     
     .about p{
-        font-size: xx-small;
-        font-weight: 250;
-        line-height: 8pt;
-        margin-top: 10px;
+        font-size: 5pt;
+        font-weight: lighter;
+        line-height: 1.2;
+        margin: 10px 0 5px 0;
     }
 
     #about .title-about{

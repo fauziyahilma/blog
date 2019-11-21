@@ -9,7 +9,8 @@ function Notecontent(props) {
     const c = d.content
     var style = {
         backgroundImage: 'url(' + require(`./../../img/${img}`) + ')',
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
+        backgroundPosition: 'bottom'
     }
 
     return (
@@ -25,7 +26,7 @@ function Notecontent(props) {
                 }
             </h5>
             <div class="title-container" style={style}>
-                <div class="title-content" >
+                <div class="title-content wrapper" >
                     <h4><i>{title}</i></h4>
                 </div>
             </div>

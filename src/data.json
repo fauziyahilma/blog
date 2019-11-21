@@ -1,7 +1,25 @@
 [
     {
-        "id": "1",
-        "title": "WHO AM I : (not a movie review) ",
+        "title": "BLOOD TYPE AND PERSONALITY",
+        "content": [
+            "Have you ever talk to someone and you come to think 'Ah, this guy reminds me of that John Doe that I knew'? I have. several times. And most of the times, I found out later that they have same blood type. Or when I watch somebody and realize that we have some things in common and I sort of understand him/her. Later turns out we have same blood type. I have bumped into this kind of situations many times that I started to have this question: Is blood type personality a real thing?",
+            "This blood type personality thing is not so popular in my country. I think most people here just have barely heard of it. Meanwhile in Japan, people choose their partner or even employees based on their blood type.",
+            "As I googled this online, I found out that this blood type personality theory is not scientifically proven. Some scientist corelate this issue to self-fulfilling prophecy; that Japanese people changed their personality to fit their blood type. Some people even compare this to zodiac signs. ",
+            "I personally don't believe in zodiac. I mean, how does the position of the stars have anything to do with human behavior? Blood type personality definitely makes much more sense to me. You carry out your gene in your blood and it streams everywhere inside your body. It's reasonable to think that, maybe, blood type does affect our personalites. It's not that everyone with same blood type will have exactly same characters. They might have some basic things in common, but they could be different in one way or another.",
+            "So you say 'So what? we don't put people into boxes based on their blood type'. You're right. We don't put people into boxes. But to me, it's sort of useful that I can guess how other people think or feel, how they would react to some certain things, or if we can trust them or not, like 'Oh, I have experience with this kind of person before so I can use those experiences to handle this person now'. It's like being able to read people's mind without special training. Not bad, huh?"
+        ],
+        "insight": "Unanswered question running through my mind: Is blood type personality a real thing? ",
+        "tags": [
+            "people",
+            "personality",
+            "random"
+        ],
+        "date": "November 2019",
+        "img": "IMG_20160927_154148_HDR.jpg",
+        "category": "random"
+    },
+    {
+        "title": "HOW TO DEFINE YOURSELF -and fail",
         "content": [
             "I spent my teenage years reading self-help-motivational-psychological books and I truly enjoyed it. I was totally into pshycology, well, maybe I still am. I found it incredible that we can explain human behaviour, or sort of read people's mind, and change them. At some point I started to use those 'pshycological knowledge' of mine to understand myself better. I'd like to know myself, and more than anything, like any other teenager, I had some kind of urge to define  and state What Kind of Person I Am. I would take several kinds of personality test like Myers–Briggs, DISC, even some random quiz on facebook. At that time, trying to define and understand my inner self was kinda fun. Doesn't it feel good to have some words describing your characters, especially the nice ones?.",
             "What those tests told me? Well that's not really important, because, first, I barely remember the results of the tests, and second, that -what those tests said about me- doesn't really matter anymore. As time goes by and life started to hit me pretty hard, my well defined characters from my teenage years started to change. ",
@@ -20,7 +38,6 @@
         "category": "life"
     },
     {
-        "id": "2",
         "title": "THANK YOU, ME",
         "content": [
             "Dear me",
@@ -35,27 +52,7 @@
             "self-reminder",
             "self-love"
         ],
-        "date": "October 2019",
-        "img": "DSCF4071.JPG",
-        "category": "self-reminder"
-    },
-    {
-        "id": "3",
-        "title": "THANK YOU, ME...",
-        "content": [
-            "Dear me",
-            "Thank you for struggling through everything in this rough life. You're strong and you're getting better in every single thing that you've been feeling insecure about. Thank you for going through every hurdles, barriers, obstructions all the way here. You have changed a lot in the best way that you can. Thank you for coming out of your comfort zone even though everybody doubted you. Thank you for keeping your values when life is hard.",
-            "You're beautiful with all your flaws. You can be sad if you want to, but nobody has the right to make you feel so.",
-            "You have worked very hard. You deserve the success you aimed for. Get your head up and grab it.",
-            "Don't give up. ",
-            "Don't stop being you"
-        ],
-        "insight": "A reminder to always respect and love yourself",
-        "tags": [
-            "self-reminder",
-            "self-love"
-        ],
-        "date": "October 2019",
+        "date": "February 2019",
         "img": "DSCF4071.JPG",
         "category": "self-reminder"
     }
