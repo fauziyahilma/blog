@@ -1,5 +1,5 @@
 import React from 'react';
-import IMG_20191114_221911 from './../../img/IMG_20191114_221911.jpg';
+import IMG_20191114_221911 from './../../img/IMG_20191114_221911.webp';
 
 function About() {
     return (

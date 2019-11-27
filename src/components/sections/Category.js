@@ -13,9 +13,9 @@ class Category extends Component {
                 </div>
 
                 <div id="category" className="row">
-                    <Categorybox img="DSC_0019.JPG" text="life" />
-                    <Categorybox img="DSC_0542.JPG" text="self-reminder" />
-                    <Categorybox img="DSC_0084.JPG" text="random" />
+                    <Categorybox img="DSC_0019.webp" text="life" />
+                    <Categorybox img="DSC_0542.webp" text="self-reminder" />
+                    <Categorybox img="DSC_0084.webp" text="random" />
                 </div>
             </>
         )
