@@ -12,7 +12,7 @@ workbox.routing.registerRoute(
 )
 
 workbox.routing.registerRoute(
-    /\.(?:js|css|html|JPG|jpg|png)$/,
+    /\.(?:js|css|html|png|webp)$/,
     workbox.strategies.networkFirst(),
 )
 workbox.routing.registerRoute(
@@ -21,7 +21,7 @@ workbox.routing.registerRoute(
 )
 
 workbox.routing.registerRoute(
-    new RegExp('https://fauziyahilma.github.io/blog'),
+    new RegExp('https://fauziyahilma.github.io/'),
     workbox.strategies.staleWhileRevalidate()
 )
 
