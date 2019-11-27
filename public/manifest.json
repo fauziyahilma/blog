@@ -1,16 +1,14 @@
 {
-  "name": "e by Ilma",
-  "short_name": "e",
-  "description": " ",
-  "start_url": "/blog/index.html",
-  "display": "standalone",
-  "background_color": "#588778",
-  "theme_color": "#588778",
-  "icons": [
-      {
-          "src": "./e.png",
-          "sizes": "512x512",
-          "type": "image/png"
-      }
-  ]
+    "name": "e by Ilma",
+    "short_name": "e",
+    "description": " ",
+    "start_url": "/blog",
+    "display": "standalone",
+    "background_color": "#588778",
+    "theme_color": "#588778",
+    "icons": [{
+        "src": "./e.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }]
 }
