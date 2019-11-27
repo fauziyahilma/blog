@@ -16,12 +16,12 @@ workbox.routing.registerRoute(
     workbox.strategies.networkFirst(),
 )
 workbox.routing.registerRoute(
-    'https://fauziyahilma.github.io/',
+    'https://fauziyahilma.github.io/blog',
     workbox.strategies.networkFirst()
 )
 
 workbox.routing.registerRoute(
-    new RegExp('https://fauziyahilma.github.io/'),
+    new RegExp('https://fauziyahilma.github.io/blog'),
     workbox.strategies.staleWhileRevalidate()
 )
 
